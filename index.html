@@ -12,28 +12,54 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Hello, world!</title>
+    <title>Mifag</title>
 </head>
+
 <body>
-<div class="container">
-    <a class="btn btn-primary" href="pages/works.html" role="button">My works</a>
-    <div class="col-12">
-        <h1>My portfolio <div class="fa fa-music"></div></h1>
+    <nav class="navbar navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mx-auto" >
+            Моё портфолио
+        </a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="index.html">
+                <div class="fa fa-home"></div> Главная</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="pages/works.html">Трудовая деятельность</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/music.html">Музыкальная деятельность</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/hobbies.html">Хобби</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3>Здесь информация обо мне.</h3>
+            </div>
+        </div>
     </div>
 
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous">
-</script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>
+    </body>
 </html>

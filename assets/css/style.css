@@ -1,3 +1,13 @@
+body, .navbar{
+    background: url(../images/grunge-wall.png);
+    background-attachment: fixed;
+}
+
+
+.container {
+    margin-top: 60px;
+}
+
 .operator {
     width: 50%; height: auto;
 }
