@@ -3,11 +3,14 @@ body, .navbar{
     background-attachment: fixed;
 }
 
-
 .container {
     margin-top: 60px;
 }
 
 .operator {
     width: 50%; height: auto;
+}
+
+h6, dd, dt{
+    font-style: italic;
 }
