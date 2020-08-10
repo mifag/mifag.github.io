@@ -1,6 +1,12 @@
-body, .navbar, .dropdown-toggle, .dropdown-menu{
+body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
     background: url(../images/grunge-wall.png);
     background-attachment: fixed;
+}
+
+.btn-menu {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-color: white;
 }
 
 .container {
