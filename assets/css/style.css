@@ -9,7 +9,7 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
     border-color: white;
 }
 
-.container {
+.container, .container-fluid {
     margin-top: 60px;
 }
 
@@ -17,7 +17,7 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
     width: 50%; height: auto;
 }
 
-h6, dd, dt{
+ h6, dd, dt{
     font-style: italic;
 }
 
