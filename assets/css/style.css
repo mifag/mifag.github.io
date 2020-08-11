@@ -17,17 +17,21 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
     width: 50%; height: auto;
 }
 
- h6, dd, dt{
+.index-link {
+    font-weight: bold;
+}
+
+ h6, dd, dt, .nav-link, .index-link{
     font-style: italic;
 }
 
 .link-icon{
-    width:28px;
-    height:28px;
+    width:32px;
+    height:32px;
     margin-left:2px;
 }
 
 .call-icon {
-    width:56px;
-    height:56px;
+    width:48px;
+    height:48px;
 }
