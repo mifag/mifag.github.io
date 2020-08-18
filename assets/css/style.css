@@ -1,4 +1,4 @@
-body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
+body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     background: url(../images/grunge-wall.png);
     background-attachment: fixed;
 }
@@ -8,6 +8,9 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
     margin-left: 20px;
     border-color: white;
 }
+.alert-new {
+    margin-top: 60px;
+}
 
 .container, .container-fluid {
     margin-top: 60px;
@@ -15,6 +18,10 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
 
 .operator {
     width: 50%; height: auto;
+}
+
+.job-link, .year {
+    color: black;
 }
 
 .index-link {
@@ -34,4 +41,8 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu{
 .call-icon {
     width:48px;
     height:48px;
+}
+
+.line {
+border-left: 2px solid #343a40;
 }
