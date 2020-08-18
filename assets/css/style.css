@@ -16,6 +16,10 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     margin-top: 60px;
 }
 
+.info-about-me {
+    margin-bottom: 60px;
+}
+
 .operator {
     width: 50%; height: auto;
 }
