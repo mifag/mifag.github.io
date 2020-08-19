@@ -1,5 +1,5 @@
 body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
-    background: url(../images/grunge-wall.png);
+    background: url(../img/grunge-wall.png);
     background-attachment: fixed;
 }
 
@@ -9,7 +9,7 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     border-color: white;
 }
 .alert-new {
-    margin-top: 60px;
+    border-color: white;
 }
 
 .container, .container-fluid {
