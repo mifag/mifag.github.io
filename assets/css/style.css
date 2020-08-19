@@ -3,6 +3,15 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     background-attachment: fixed;
 }
 
+.container, .container-fluid {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+ h6, dd, dt, .nav-link, .index-link{
+    font-style: italic;
+}
+
 .btn-menu {
     margin-top: 10px;
     margin-left: 20px;
@@ -10,14 +19,6 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
 }
 .alert-new {
     border-color: white;
-}
-
-.container, .container-fluid {
-    margin-top: 60px;
-}
-
-.info-about-me {
-    margin-bottom: 60px;
 }
 
 .operator {
@@ -32,8 +33,17 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     font-weight: bold;
 }
 
- h6, dd, dt, .nav-link, .index-link{
-    font-style: italic;
+
+.left-img {
+    width: 110px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+.right-img  {
+    width: 110px;
+    float: right;
+    margin: 0 0 5px 5px;
 }
 
 .link-icon{
@@ -47,6 +57,9 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     height:48px;
 }
 
-.line {
-border-left: 2px solid #343a40;
+
+.col-job {
+    font-weight: 500;
+    border-bottom: 1px solid #343a40;
+    margin-top: 20px;
 }
