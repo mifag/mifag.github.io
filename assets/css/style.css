@@ -33,7 +33,6 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     font-weight: bold;
 }
 
-
 .left-img {
     width: 110px;
     float: left;
@@ -57,8 +56,13 @@ body, .navbar, .dropdown-toggle, .dropdown-menu, .btn-menu, .btn-new-version {
     height:48px;
 }
 
-
 .col-job {
+    font-weight: 500;
+    border-bottom: 1px solid #343a40;
+    margin-top: 20px;
+}
+
+.col-music {
     font-weight: 500;
     border-bottom: 1px solid #343a40;
     margin-top: 20px;
